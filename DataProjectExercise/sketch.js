@@ -20,19 +20,27 @@ function draw() {
   text('Emily Wu - Data Project Exercise', 180, 50);
   text('Boba Thoughts', 257, 90);
   // Key
-  strokeWeight(0.7);
   textSize(15);
-  stroke(255, 132, 79);
+  stroke(0);
+  strokeWeight(2);
   fill(255, 132, 79);
   rect(60, 135, 20, 20);
+  strokeWeight(0.7);
+  fill(0);
   text('When I crave boba', 90, 151);
-  stroke(79, 255, 205);
+  stroke(0);
+  strokeWeight(2);
   fill(79, 255, 205);
   rect(240, 135, 20, 20);
+  strokeWeight(0.7);
+  fill(0);
   text('When I talk about boba', 270, 151);
-  stroke(176, 79, 255);
+  stroke(0);
+  strokeWeight(2);
   fill(176, 79, 255);
   rect(445, 135, 20, 20);
+  strokeWeight(0.7);
+  fill(0);
   text('When I get boba', 475, 151);
   // Calendar box
   stroke(255, 0, 255);
